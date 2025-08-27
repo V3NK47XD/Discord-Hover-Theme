@@ -1,0 +1,30 @@
+/* Expand on hover For member list */
+.container_c8ffbb {
+  width: 50px;
+  transition: width 0.1s ease-out; /* smooth animation */
+}
+.container_c8ffbb:hover {
+  width: 250px;
+}
+
+
+/* Expand on hover for Channel list*/
+.sidebarList_c48ade,
+.sidebarListRounded_c48ade {
+  width: 105px;
+  transition: width 0.1s ease;
+}
+.sidebarList_c48ade:hover,
+.sidebarListRounded_c48ade:hover {
+  width: 270px;
+}
+
+
+/*Profile size adjustment*/
+.container__37e49 {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center;     
+  gap: 10px; 
+}
